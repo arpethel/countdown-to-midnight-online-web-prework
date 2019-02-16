@@ -6,5 +6,5 @@ def countdown (int)
     puts "#{int} SECOND(S)!"
     ticker -= 1
   end
-  return "HAPPY NEW YEAR!"  
+  return "HAPPY NEW YEAR!"
 end
