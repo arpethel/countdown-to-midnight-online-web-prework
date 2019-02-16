@@ -2,7 +2,7 @@
 
 def countdown (number)
   ticker = number
-  while ticker > 0
+  while ticker > 0 do
     puts "#{number} SECOND(S)!"
     ticker -= 1
   end
