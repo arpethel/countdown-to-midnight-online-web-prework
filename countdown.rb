@@ -8,3 +8,12 @@ def countdown (number)
   end
   return "HAPPY NEW YEAR!"
 end
+
+def countdown_with_sleep (num)
+  counter = num
+  while counter > 0
+    puts "#{counter} SECOND(S) 'TIL MIDNIGHT!"
+    counter -= 1
+  end
+  return "GO TO SLEEP"
+end
