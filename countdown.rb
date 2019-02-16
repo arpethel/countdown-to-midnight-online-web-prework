@@ -1,10 +1,10 @@
 #write your code here
 
 def countdown (number)
-  ticker = number
-  while ticker > 0 do
+  counter = number
+  while counter > 0 
     puts "#{number} SECOND(S)!"
-    ticker -= 1
+    counter -= 1
   end
   return "HAPPY NEW YEAR!"
 end
